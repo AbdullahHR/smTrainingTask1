@@ -1,0 +1,194 @@
+body{
+    background: rgb(92, 52, 119);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color :black ;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white; 
+}
+
+p{
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+h3{
+    text-align: center;
+}
+
+.slideContainer{
+    width: 600px;
+    margin-top: 100px;
+}
+
+.motor1::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top: 31%;
+}
+
+.motor1::before{
+    content: '-90';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 16%;
+    top: 31%;
+}
+
+.motor2::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top:73%;
+}
+
+.motor2::before{
+    content: '-90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16%;
+    top: 73%;
+}
+
+.motor3::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top:115%;
+}
+
+.motor3::before{
+    content: '-90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16%;
+    top: 115%;
+}
+
+.motor4::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top:157%;
+}
+
+.motor4::before{
+    content: '-90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16%;
+    top: 157%;
+}
+
+.motor5::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top:199%;
+}
+
+.motor5::before{
+    content: '-90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16%;
+    top: 199%;
+}
+
+
+.motor6::after{
+    content: '90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 80%;
+    top:241%;
+}
+
+.motor6::before{
+    content: '-90';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16%;
+    top: 241%;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    background: rgb(117, 252, 117);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition:  0.2s;
+    border-radius: 20px;
+}
+
+.slider :hover{
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 35px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 60px;
+    margin-left: 15px;
+    padding: 10px 17px;
+    font-size: 30px;
+    background: rgb(117, 252, 117);
+    border-radius: 30px;
+}
+
+.bt1{
+    margin-left: 180px;
+    margin-top: 60px;
+    padding: 10px 17px;
+    font-size: 30px;
+    background: rgb(117, 252, 117);
+    border-radius: 30px;
+}
+
+.button:hover{
+    padding: 10px 17px;
+    font-size: 30px;
+    background:rgb(47, 24, 63);
+    color:rgb(117, 252, 117);
+    border-radius: 30px;
+}
+
+.bt1:hover{
+    padding: 10px 17px;
+    font-size: 30px;
+    background:rgb(47, 24, 63);
+    color:rgb(117, 252, 117);
+    border-radius: 30px;
+}
